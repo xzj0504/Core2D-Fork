@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{205489
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
 		global.json = global.json
 		NuGet.Config = NuGet.Config
-		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{93539864-8DAD-47A6-BB47-948EE086C030}"
@@ -498,5 +498,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0720A3F0-7CD3-4F9C-8DFF-858B38D44C31}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		external\ACadSharp\src\CSUtilities\CSMath\CSMath.projitems*{7f9047aa-6151-4529-8739-128868b75919}*SharedItemsImports = 5
+		external\ACadSharp\src\CSUtilities\CSUtilities\CSUtilities.projitems*{7f9047aa-6151-4529-8739-128868b75919}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
